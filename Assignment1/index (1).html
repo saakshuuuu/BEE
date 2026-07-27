@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saksham Thakur — CSE AI Portfolio</title>
+    <meta name="description" content="Portfolio of Saksham Thakur, a 3rd year CSE-AI student who builds ML projects, web apps and loves gaming." />
+    <meta property="og:title" content="Saksham Thakur — CSE AI Portfolio" />
+    <meta property="og:description" content="Portfolio of Saksham Thakur, a 3rd year CSE-AI student who builds ML projects, web apps and loves gaming." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand" data-nav>Saksham Thakur</a>
+        <nav class="nav-desktop">
+          <a href="#projects" data-nav>Projects</a>
+          <a href="#about" data-nav>About</a>
+          <a href="#gaming" data-nav>Gaming</a>
+          <a href="#contact" data-nav>Contact</a>
+        </nav>
+        <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <nav class="nav-mobile" id="nav-mobile">
+        <a href="#projects" data-nav>Projects</a>
+        <a href="#about" data-nav>About</a>
+        <a href="#gaming" data-nav>Gaming</a>
+        <a href="#contact" data-nav>Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero" aria-label="Intro">
+        <div class="hero-grid" id="hero-grid" aria-hidden="true"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow">CSE — AI · 3rd Year</p>
+          <h1 class="display" id="hero-title">
+            <span class="word">Saksham</span>
+            <span class="word">Thakur</span>
+          </h1>
+        </div>
+        <p class="hero-bio">
+          Hey! I'm Saksham — a Computer Science &amp; AI student who loves turning creative ideas into code. I build ML models, web apps and anything in between, and I geek out over clean design and clutch gaming moments.
+        </p>
+        <div class="scroll-hint" aria-hidden="true">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="container">
+          <p class="eyebrow eyebrow-block">Selected work</p>
+          <h2 class="section-title">Projects</h2>
+          <ul class="project-list" id="project-list"></ul>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section section-alt">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow eyebrow-block">About</p>
+            <h2 class="section-title">Code, creativity<br />&amp; caffeine.</h2>
+            <div class="prose">
+              <p>I'm a third-year Computer Science &amp; Artificial Intelligence student with a huge appetite for building creative, useful things.</p>
+              <p>My days switch between training ML models, shipping web apps, sketching poster ideas and losing sleep over a design detail that only I will ever notice. I love the messy overlap of engineering and creativity — where logic meets aesthetics.</p>
+              <p>Outside of code, I'm probably editing videos, exploring new tech, or hopping into a game with friends looking for the next clutch moment.</p>
+            </div>
+          </div>
+
+          <div class="about-side">
+            <div>
+              <p class="label">Skills</p>
+              <div class="chips" id="skills-chips"></div>
+            </div>
+            <div>
+              <p class="label">Creative Interests</p>
+              <div class="chips" id="interests-chips"></div>
+            </div>
+            <div>
+              <p class="label">Education</p>
+              <p class="edu-title">B.Tech · Computer Science &amp; AI</p>
+              <p class="muted small">3rd Year · Exploring ML, full-stack &amp; system design</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GAMING -->
+      <section id="gaming" class="section">
+        <div class="container">
+          <p class="eyebrow eyebrow-block">The fun part</p>
+          <h2 class="section-title">Gaming &amp;<br />Sniping Skills.</h2>
+          <p class="lead">
+            When the IDE closes, the crosshair opens. Gaming is where I unwind, sharpen reflexes, and pretend those headshots were totally intentional.
+          </p>
+
+          <div class="highlight-grid" id="highlight-grid"></div>
+
+          <div class="games-block">
+            <p class="label">Currently Grinding</p>
+            <ul class="games-list" id="games-list"></ul>
+          </div>
+
+          <blockquote class="quote">
+            "Debugging by day, dropping frags by night —
+            <span class="muted">both require patience, precision, and a good cup of chai."</span>
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-alt">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow eyebrow-block">Contact</p>
+            <h2 class="section-title">Let's build<br />something.</h2>
+            <p class="lead">Got a project, an internship, or just want to talk tech and games? My inbox is open.</p>
+            <ul class="contact-list">
+              <li><a href="mailto:saksham.thakur@example.com">sxmthk58@gmail.com</a></li>
+              <li><a href="https://github.com/saakshuuuu" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="https://instagram.com/sakshamyayaya" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            </ul>
+            <p class="label label-mt">Based in</p>
+            <p>India</p>
+          </div>
+          <div class="contact-visual" aria-hidden="true">
+            <div class="contact-visual-inner"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <span class="footer-brand">Saksham Thakur</span>
+          <span class="footer-copy">© <span id="year"></span></span>
+        </div>
+        <div class="footer-right">
+          <a href="#home" data-nav>Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
